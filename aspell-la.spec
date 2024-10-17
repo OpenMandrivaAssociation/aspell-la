@@ -14,7 +14,7 @@ Name:		aspell-%{languagecode}
 Version:	20020503.0
 Release:	22
 Group:		System/Internationalization
-Url:		http://aspell.net/
+Url:		https://aspell.net/
 License:	GPLv2
 Source0:	http://ftp.gnu.org/gnu/aspell/dict/%{languagecode}/%{fname}-%{src_ver}.tar.bz2
 
