@@ -18,6 +18,10 @@ Url:		https://aspell.net/
 License:	GPLv2
 Source0:	http://ftp.gnu.org/gnu/aspell/dict/%{languagecode}/%{fname}-%{src_ver}.tar.bz2
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
 BuildRequires:	aspell >= %{aspell_ver}
 BuildRequires:	make
 Requires:	aspell >= %{aspell_ver}
